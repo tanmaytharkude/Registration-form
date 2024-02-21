@@ -1,0 +1,24 @@
+body{
+  background: radial-gradient(circle, aqua, rgb(255, 255, 98));
+  color: #fff;
+}
+form{
+  background-color: #fffb15!important;
+  height: 21rem !important;
+  width: 34rem !important;
+  padding: 1rem 2rem 2rem 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border: 1px solid black;
+}
+.title i ,h2{
+  display: flex !important;
+  justify-content: center!important;
+  font-size:3rem ;
+  padding-top: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    form{
+      margin-left: 2rem;
+    }
+}
